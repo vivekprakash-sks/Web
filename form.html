@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hotel Room Booking Form</h1>
+    <form action="/submit.php">
+        <div>
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Enter Name">
+        </div>
+        <div>
+            <label for="ph">Phone</label>
+            <input id="ph" type="tel" placeholder=" Enter phone">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter Email">
+        </div>
+
+        <div>
+            <label for="dob">Check-in Date</label>
+            <input id="dob" type="date" required>
+        </div>
+        <div>
+            <label for="dob">Check-out Date</label>
+            <input id="dob" type="date" required>
+        </div>
+
+        <div>
+            <label for="gender">Gender</label>
+            <select id="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+</select>
+        </div>
+
+        <div>
+            <p>Room Type</p>
+
+            <input id="Single-Room" type="radio" name="subscription" value="basic">
+            <label for="Single-Room ">Single-Room</label>
+
+            <input id="Double Room" type="radio" name="subscription" value="premium">
+            <label for="Double Room">Double Room</label>
+
+            <input id="Triple Room" type="radio" name="subscription" value="vip">
+            <label for="Triple Room">Triple Room</label>
+        </div>
+        <div>
+            <label for="ph">Numbers of Guests:</label>
+            <input id="ph" type="text">
+        </div>
+
+        <div>
+            <label for="comments">Special Request</label>
+            <textarea id="comments" rows="4"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Book Now </button>
+            <button type="submit">Reset Form </button>
+        </div>
+    </form>
+</body>
+
+</html>
