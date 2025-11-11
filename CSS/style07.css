@@ -1,0 +1,42 @@
+.container {
+    border: 1px solid black;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.navbar {
+    background-color: lightgray;
+    padding: 5px;
+    text-align: center;
+}
+
+.navbar h4 {
+    margin: 0;
+}
+
+.navbar .highlight {
+    color: red;
+}
+
+.menu,
+.menu2 {
+    margin: 10px;
+}
+
+.menu a,
+.menu2 a {
+    padding: 5px 10px;
+    margin: 3px;
+    display: inline-block;
+    border: 1px solid gray;
+}
+
+.menu a {
+    background-color: lightblue;
+    color: black;
+}
+
+.menu2 a {
+    background-color: lightgreen;
+    color: black;
+}
